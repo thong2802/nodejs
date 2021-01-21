@@ -1,0 +1,34 @@
+
+<div class="khohangme">
+<div class="mt-04">
+    <h3>Kho hàng của tôi</h3>
+
+<table class="table">
+  <thead>
+        <tr>
+            <th scope="col">STT</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Time create</th>
+            <th scope="col"></th>
+            
+        </tr>
+  </thead>
+
+  <tbody>
+       {{#each courses }}
+         <tr>
+            <th scope="row">{{sum @index 1}}</th>
+            <td>{{this.name}}</td>
+            <td>{{this.price}}</td>
+            <td>{{this.createdAt}}</td>
+            <td>
+                  <a  href="/"  class="btn btn-outline-secondary delete">Delete </a>
+                  <a  href="/"  class="btn btn-outline-secondary fix">Fix </a>
+            </td>
+         </tr>
+         {{/each}}
+  </tbody>
+</table>
+</div>
+</div>
