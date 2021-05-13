@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thong2802/nodejs_server_restaurent.git"
+  },
+  "keywords": [
+    "server",
+    "nodejs",
+    "android"
+  ],
+  "author": "ducthong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thong2802/nodejs_server_restaurent/issues"
+  },
+  "homepage": "https://github.com/thong2802/nodejs_server_restaurent#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
